@@ -7,7 +7,7 @@ Card
     String getSuit();	
 
 RummyGame
-	Card cards[13];	
+	Card hand[13];	
 
 	Card[] generateInput()
 	boolean isNatural(ArrayList<Card> )
