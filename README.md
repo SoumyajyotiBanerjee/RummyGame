@@ -6,8 +6,8 @@ Card
     String getRank();	
     String getSuit();	
 
-RummyGame
-	Card hand[13];	
+RummyHand
+	Card cardsinHand[13];	
 
 	Card[] generateInput()
 	boolean isNatural(ArrayList<Card> )
