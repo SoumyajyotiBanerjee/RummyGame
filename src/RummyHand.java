@@ -31,8 +31,13 @@ public class RummyHand {
 		return 0;
 	}
 
-	ArrayList<ArrayList<Card>> getAllValidSequence(Card [] cards) {
-		return new  ArrayList<ArrayList<Card>>();
+
+	ArrayList<ArrayList<Card>> getAllValidSequence(ArrayList<Card> cards) {
+		
+		Collections.sort(cards);			 
+		ArrayList<ArrayList<Card>> cardSequences =  new  ArrayList<ArrayList<Card>>();
+		
+		return cardSequences;
 	}
 
 
