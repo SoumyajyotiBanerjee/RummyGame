@@ -11,7 +11,9 @@ public class RummyHand {
 		return new Card[13];
 	}
 
-	boolean isNatural(ArrayList<Card> cards ){
+	int noCardsForNatural(ArrayList<Card> cards ){
+		
+		
 		return true;	
 	}	
 	
