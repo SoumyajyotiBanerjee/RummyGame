@@ -20,7 +20,7 @@ public class RummyHand {
 		}
 		
 	}
-	private void sortByCCardID() {
+	private void sortByCardID() {
 		
 		
 	}
