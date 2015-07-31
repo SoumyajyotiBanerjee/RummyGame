@@ -1,5 +1,6 @@
 Class Design - 
 
+
 Card
     int cardId
     bool isSame(Card )
