@@ -4,11 +4,21 @@ public class RummyHand {
 	
 	Card cardsinHand[];
 	
-	RummyHand() {
-		cardsinHand = new Card[13];
+	RummyHand(int noOfCards) {
+		cardsinHand = new Card[noOfCards];
+		for(int i=0;i<noOfCards;++i){
+			int randomCard=Util.generateRandomNumber(53);
+			
+			cardsinHand[i]=new Card(randomCard);
+		}
 	}
-	public Card[] generateInput() {
-		return new Card[13];
+
+	private void printCards() {
+		// TODO Auto-generated method stub
+		for(Card c:cardsinHand){
+			System.out.println(c.suit+""+c.rank);
+		}
+		
 	}
 
 	int noCardsForNatural(ArrayList<Card> cards ){
