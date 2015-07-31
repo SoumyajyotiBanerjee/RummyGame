@@ -21,7 +21,11 @@ public class RummyHand {
 		
 	}
 	private void sortByCardID() {
-		
+		ArrayList<Card> al=new ArrayList<Card>();
+		for(Card c:cardsinHand){
+			al.add(c);
+		}
+		Collections.sort(al);
 		
 	}
 	private void sortBySuit() {
