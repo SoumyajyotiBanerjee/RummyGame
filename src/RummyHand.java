@@ -51,7 +51,7 @@ public class RummyHand {
 	}
 
 
-	ArrayList<ArrayList<Card>> getAllValidSequence(ArrayList<Card> cards) {
+	ArrayList<ArrayList<Card>> getAllValidSequence() {
 		
 		Collections.sort(cards);			 
 		ArrayList<ArrayList<Card>> cardSequences =  new  ArrayList<ArrayList<Card>>();
