@@ -20,7 +20,14 @@ public class RummyHand {
 		}
 		
 	}
-
+	private void sortByCCardID() {
+		
+		
+	}
+	private void sortBySuit() {
+		
+		
+	}
 	int noCardsForNatural(ArrayList<Card> cards ){
 		
 		
