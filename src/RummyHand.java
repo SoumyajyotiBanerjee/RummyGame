@@ -4,15 +4,34 @@ public class RummyHand {
 	
 	Card cardsinHand[];
 	
-	RummyHand() {
-		cardsinHand = new Card[13];
-	}
-	public Card[] generateInput() {
-		return new Card[13];
+	RummyHand(int noOfCards) {
+		cardsinHand = new Card[noOfCards];
+		for(int i=0;i<noOfCards;++i){
+			int randomCard=Util.generateRandomNumber(53);
+			
+			cardsinHand[i]=new Card(randomCard);
+		}
 	}
 
-	boolean isNatural(ArrayList<Card> cards ){
-		return true;	
+	private void printCards() {
+		// TODO Auto-generated method stub
+		for(Card c:cardsinHand){
+			System.out.println(c.suit+""+c.rank);
+		}
+		
+	}
+	private void sortByCardID() {
+		
+		
+	}
+	private void sortBySuit() {
+		
+		
+	}
+	int noCardsForNatural(ArrayList<Card> cards ){
+		
+		
+		return -1;	
 	}	
 	
 	boolean isImproper( ArrayList<Card> cards) {
@@ -43,7 +62,7 @@ public class RummyHand {
 
 	public static void main(String[] args){
     	
-		RummyHand hand = new RummyHand();
+		RummyHand hand = new RummyHand(13);
 		
 		//hand.noOfCardsForDeclaration();
 	}	
