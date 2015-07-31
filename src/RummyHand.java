@@ -24,7 +24,7 @@ public class RummyHand {
 	int noCardsForNatural(ArrayList<Card> cards ){
 		
 		
-		return true;	
+		return -1;	
 	}	
 	
 	boolean isImproper( ArrayList<Card> cards) {
@@ -50,7 +50,7 @@ public class RummyHand {
 
 	public static void main(String[] args){
     	
-		RummyHand hand = new RummyHand();
+		RummyHand hand = new RummyHand(13);
 		
 		//hand.noOfCardsForDeclaration();
 	}	
