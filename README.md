@@ -1,13 +1,14 @@
 Class Design - 
 
+
 Card
     int cardId
     bool isSame(Card )
     String getRank();	
     String getSuit();	
 
-RummyGame
-	Card cards[13];	
+RummyHand
+	Card cardsinHand[13];	
 
 	Card[] generateInput()
 	boolean isNatural(ArrayList<Card> )
